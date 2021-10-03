@@ -1,6 +1,6 @@
 # 🖥️ **Fundamentos de Front End**
 
-Módulo de estudo do [**Bootcamp Desenvolvedor Tech PAN**](../).
+Módulo de estudo do [**Bootcamp Desenvolvedor Tech PAN**](../../../).
 
 ## ✍️ Atividades
 
