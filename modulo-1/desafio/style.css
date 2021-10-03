@@ -1,0 +1,321 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+select {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+body {
+    background-color: rgb(20, 20, 24);
+    color: rgb(199, 204, 216);
+}
+
+div.page-container {
+    display: flex;
+    height: 100vh;
+    width: fit-content;
+    margin: auto;
+    box-shadow: 0px 0px .75rem .25px rgba(62, 51, 99, 0.5),
+                0px 0px .5rem .2px rgba(11, 10, 17, 0.5);
+}
+
+aside {
+    width: 30rem;
+    border-right: solid .2rem rgb(62, 51, 99);
+    border-radius: 1rem 0 0 1rem;
+}
+
+aside h2 {
+    font-size: 2.25rem;
+}
+
+aside label,
+aside select,
+aside fieldset legend {
+    font-size: 1.6rem;
+}
+
+aside label {
+    display: block;
+    margin: 1rem 0;
+}
+
+aside select {
+    border: 2px solid rgb(142, 118, 226);
+    border-radius: .8rem;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(199, 204, 216);
+    outline: none;
+}
+
+aside select option {
+    background: rgb(27, 27, 32);
+}
+
+aside fieldset {
+    margin-top: 2rem;
+    padding: 1.2rem;
+    border-radius: .8rem;
+}
+
+aside fieldset legend {
+    display: inline-block;
+    margin: auto;
+    font-weight: 600;
+}
+
+aside fieldset label input[type='checkbox']:checked {
+    filter: hue-rotate(35deg);
+}
+
+aside,
+main {
+    padding: 2rem;
+    background-color: rgb(27, 27, 32);
+}
+
+main {
+    height: unset;
+    width: 60rem;
+    padding: 2rem 5rem;
+    border-radius: 0 1rem 1rem 0;
+}
+
+main div.button-wrapper {
+    position: relative;
+    display: none;
+    width: 0px;
+    height: 0px;
+}
+
+main div.button-wrapper div.button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 9.5rem;
+    top: -3rem;
+    font-size: 4.5rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    box-shadow: 0px 0px 0px 2px rgb(111, 157, 226);
+    border-radius: 1.25rem;
+    color: rgb(111, 157, 226);
+    background-color: rgb(105, 72, 221);
+}
+
+main div.button-wrapper div.button:active {
+    color: rgb(148, 179, 226);
+    background-color: rgb(117, 90, 214);
+    box-shadow: 0px 0px 2px 2px rgb(148, 179, 226);
+}
+
+main div.button-wrapper div.button.hide {
+    transform: rotateZ(-90deg);
+    transition: .5s;
+}
+
+main div.button-wrapper div.button.show {
+    transform: rotateZ(90deg);
+    transition: .5s;
+}
+
+main div.button-wrapper div.button span {
+    position: absolute;
+    top: -11.55px;
+    font-size: 4.5rem;
+}
+
+main h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+main div.table-wrap {
+    width: 100%;
+    height: 94.27%;
+    overflow: auto;
+}
+
+main div.table-wrap::-webkit-scrollbar,
+aside fieldset::-webkit-scrollbar {
+    width: 1.55rem;
+}
+
+main div.table-wrap::-webkit-scrollbar-track,
+aside fieldset::-webkit-scrollbar-track {
+    border-radius: .75rem;
+    background-color: rgb(20, 20, 24);
+}
+
+main div.table-wrap::-webkit-scrollbar-thumb,
+aside fieldset::-webkit-scrollbar-thumb {
+    border-radius: .7rem;
+    background-color: rgb(142, 118, 226);
+}
+
+main div.table-wrap::-webkit-scrollbar-thumb:active,
+aside fieldset::-webkit-scrollbar-thumb:active {
+    background-color: rgb(194, 177, 255);
+}
+
+main table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+main table thead tr th:first-child {
+    border-left: 1px solid rgb(142, 118, 226);
+}
+
+main table thead tr th:last-child {
+    border-right: 1px solid rgb(142, 118, 226);
+}
+
+main table thead tr th {
+    font-size: 1.8rem;
+    color: rgb(142, 118, 226);
+    background-color: rgb(27, 27, 32);
+    border-bottom: 1px solid rgb(142, 118, 226);
+    border-top: 1px solid rgb(142, 118, 226);
+    position: sticky;
+    top: 0;
+}
+
+main table tbody tr:hover td {
+    background-color: rgb(72, 101, 145);
+    color: rgb(255, 255, 255);
+}
+
+main table tbody tr:hover td:first-child {
+    background-color: rgb(76, 63, 122);
+    color: rgb(67, 137, 241);
+    border-radius: 1rem 0 0 1rem;
+}
+
+main table tbody tr:hover td:last-child {
+    background-color: rgb(76, 63, 122);
+    border-radius: 0 1rem 1rem 0;
+}
+
+main table tbody tr:last-child td + td:not(:last-child) {
+    border-bottom: 1px solid rgb(142, 118, 226);
+}
+
+main table tbody tr:last-child td + td:nth-child(2) {
+    border-bottom-left-radius: .75rem;
+}
+
+main table tbody tr:last-child td + td:nth-child(3) {
+    border-bottom-right-radius: .75rem;
+}
+
+main table tbody tr td:first-child {
+    text-align: right;
+    color: rgb(111, 157, 226);
+    font-weight: 600;
+}
+
+main table tbody tr td:last-child {
+    text-align: right;
+}
+
+main table tbody tr td:nth-child(3) {
+    border-right: 1px solid rgb(142, 118, 226);
+}
+
+main table tbody tr:nth-child(odd) {
+    background-color: rgb(38, 36, 49);
+    background-image: linear-gradient(90deg, rgb(27, 27, 32), rgb(38, 36, 49), rgb(27, 27, 32));
+}
+
+main table tbody tr td {
+    font-size: 1.6rem;
+}
+
+main table tbody tr td:not(:first-child) {
+    border-left: 1px solid rgb(142, 118, 226);
+}
+
+main table tbody tr td:last-child {
+    border: none;
+}
+
+main table thead tr th,
+main table tbody tr td {
+    padding: .75rem;
+}
+
+@media screen and (max-width: 910px) {
+
+    div.page-container {
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 50vh;
+        border-right: none;
+        border-bottom: solid .2rem rgb(62, 51, 99);
+        border-radius: 0;
+        transition: height .5s ease-in-out;
+    }
+
+    aside.hidden-menu {
+        height: 5.2rem;
+    }
+
+    aside h2 {
+        font-size: 2rem;
+    }
+
+    aside fieldset {
+        padding: .2rem 1.2rem;
+        height: 100%;
+        width: fit-content;
+        overflow: auto;
+    }
+
+    main div.button-wrapper {
+        display: initial;
+    }
+
+    aside label,
+    aside select {
+        font-size: 1.25rem;
+    }
+
+    main {
+        height: 50vh;
+        width: 100vw;
+        padding: 1rem 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0;
+        transition: height .5s ease-in-out;
+    }
+
+    main.hidden-menu {
+        height: calc(100% - 5.2rem);
+    }
+
+    main h1 {
+        font-size: 2.25rem;
+    }
+
+    main div.table-wrap table thead tr th,
+    main div.table-wrap table tbody tr td {
+        font-size: 1.25rem;
+    }
+}

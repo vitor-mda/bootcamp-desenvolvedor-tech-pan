@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Employees Information
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="icon.svg" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="page-container">
+            <aside>
+                <h2>Options</h2>
+                <label>Sort by <select>
+                    <option value="na">name (ascending)</option>
+                    <option value="nd">name (descending)</option>
+                    <option value="sa">salary (ascending)</option>
+                    <option value="sd">salary (descending)</option>
+                </select></label>
+                <fieldset>
+                    <legend>Filter by roles</legend>
+                </fieldset>
+            </aside>
+            <main>
+                <div class="button-wrapper">
+                    <div class="button hide"><span>&raquo;</span></div>
+                </div>
+                <h1><span></span> employees</h1>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th><th>Name</th><th>Role</th><th>Salary</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

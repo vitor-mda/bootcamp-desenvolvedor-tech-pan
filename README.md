@@ -10,9 +10,9 @@ Confira abaixo o meu progresso. Links redirecionarão até o respectivo conteúd
 
 ### 📚 Módulos de Estudos [WIP]
 
-1. - [ ] **🖥️ [Fundamentos de Front-End](modulo-1/)**
+1. - [x] **🖥️ [Fundamentos de Front-End](modulo-1/)**
      - - [x] [Trabalho Prático](modulo-1/trabalho-pratico/)
-     - - [ ] Desafio
+     - - [x] [Desafio](modulo-1/desafio/)
 2. - [ ] **🅰️ Angular**
 3. - [ ] **☕ Fundamentos de Java**
 4. - [ ] **🍃 Java para WEB**
