@@ -2,7 +2,7 @@
 
 Trabalho Prático do **[Módulo 1: Fundamentos de Front-End](../)**.
 
-[<img  src="../../image/modulo-1-trabalho-pratico.png" alt="Interface do trabalho prático completo" style="zoom:50%;" />](../../image/modulo-1-trabalho-pratico.png)
+[<img  src="../../image/modulo-1-trabalho-pratico.png" alt="Interface do trabalho prático completo" width="250px" />](../../image/modulo-1-trabalho-pratico.png)
 
 Consiste em uma página web que simula um financiamento de acordo com o Sistema de Amortizações Constantes (SAC), utilizando HTML, CSS e JavaScript.
 
