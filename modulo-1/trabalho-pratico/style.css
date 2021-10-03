@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222224;
+    color: #c2c3d1;
+}
+
+body, header, main, main div.sumario label,
+main div.sumario, div.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+body, main {
+    align-items: flex-start;
+}
+
+header, h1, h2 {
+    margin-bottom: 1rem;
+}
+
+header, div.sumario label {
+    align-items: center;
+}
+
+header {
+    background-image: linear-gradient(#4e4086, #62539c);
+    border-bottom: 2px solid #c2c3d1;
+    height: 15vh;
+}
+
+header, main {
+    padding: 1rem;
+}
+
+header, main, table {
+    width: 100%;
+}
+
+main {
+    height: 85vh;
+    max-width: 900px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #c2c3d1;
+}
+
+h2 {
+    color: #8e75e7;
+}
+
+h1, h2 {
+    font-size: 1.4rem;
+}
+
+label, input {
+    display: block;
+}
+
+main div.sumario {
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+main div.sumario div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+main div.sumario output {
+    color: #31abe4;
+    font-size: 1.5rem;
+}
+
+div.table-wrap {
+    overflow: auto;
+    height: 50%;
+    width: 100%;
+    max-width: 600px;
+}
+
+table {
+    margin-bottom: 1rem;
+}
+
+table thead tr th,
+table tbody tr td {
+    padding: 5px;
+} 
+
+table thead tr th {
+    position: sticky;
+    top: 0;
+    background-color: #46377c;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #272729;
+}
+
+table tbody tr td:nth-child(1) {
+    width: 20%;
+}
+
+table tbody tr td {
+    font-size: 1.1rem;
+}
+
+table tbody tr td:nth-child(2),
+table tbody tr td:nth-child(3) {
+    text-align: center;
+    width: 26.5%;
+}
+
+table tbody tr td:nth-child(4) {
+    text-align: right;
+}
+
+main div.table-wrap::-webkit-scrollbar,
+aside fieldset::-webkit-scrollbar {
+    width: 1.55rem;
+}
+
+main div.table-wrap::-webkit-scrollbar-track,
+aside fieldset::-webkit-scrollbar-track {
+    border-radius: .7rem;
+    background-color: #151516;
+}
+
+main div.table-wrap::-webkit-scrollbar-thumb,
+aside fieldset::-webkit-scrollbar-thumb {
+    border-radius: .7rem;
+    background-color: #46377c;
+}
+
+main div.table-wrap::-webkit-scrollbar-thumb:active,
+aside fieldset::-webkit-scrollbar-thumb:active {
+    background-color: #815eff;
+}
+
+div.inputs {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+div.inputs > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+div.inputs > div > div > label,
+div.inputs > div > div > label > input {
+    font-size: 1.2rem;
+}
+
+div.inputs > div > div > label > input {
+    width: 100%;
+    padding: .25rem;
+    border-radius: .4rem;
+    border: none;
+    background-color: #303035;
+    color: #f0f4f5;
+}
+
+div.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #482fa0;
+    color: #f0f4f5;
+    font-weight: 900;
+    letter-spacing: 1.25px;
+    height: 2rem;
+    width: 7.25rem;
+    border-radius: 10px;
+}
+
+div.button:hover {
+    cursor: pointer;
+}
+
+div.button:active {
+    background-color: #00aeff;
+}
