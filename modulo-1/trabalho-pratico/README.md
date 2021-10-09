@@ -6,7 +6,7 @@ Consiste em uma página web que simula um financiamento de acordo com o Sistema 
 
 Apresenta uma tabela rolável contendo todas as prestações, ao invés de uma tabela com apenas as cinco primeiras prestações como pedido na especificação do trabalho.
 
-[<img  src="../../image/modulo-1-trabalho-pratico.png" alt="Interface do trabalho prático completo" width="250px" />](../../image/modulo-1-trabalho-pratico.png)
+[<img  src="../../image/modulo-1/trabalho-pratico.png" alt="Interface do trabalho prático completo" width="250px" />](../../image/modulo-1-trabalho-pratico.png)
 
 ##  👨‍🏫 Enunciado
 
@@ -37,4 +37,4 @@ Apresenta uma tabela rolável contendo todas as prestações, ao invés de uma t
 >
 > 5. Estilize a aplicação usando CSS da maneira que achar adequado. A única exigência é utilizar cor de texto diferente para destacar um ou mais elementos. A imagem é um exemplo de possível interface, apenas como inspiração:
 >
-> <img  src="../../image/modulo-1-exemplo-trabalho-pratico.png" alt="Exemplo de interface" />
+> <img  src="../../image/modulo-1/exemplo-trabalho-pratico.png" alt="Exemplo de interface" />

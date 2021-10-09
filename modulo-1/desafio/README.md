@@ -4,11 +4,11 @@ Desafio do **[Módulo 1: Fundamentos de Front-End](../)**.
 
 Consiste em uma página web que exibe uma tabela rolável de funcionários fictícios com opções de filtragem e ordenação, além de informar o número atual de funcionários exibidos na tabela. As informações utilizadas são obtidas de *endpoints* providos por um [back-end local](backend/).
 
-[<img alt="Interface do desafio completo" src="../../image/modulo-1-desafio-wide.png" width="700px">](../../image/modulo-1-desafio-wide.png)
+[<img alt="Interface do desafio completo" src="../../image/modulo-1/desafio-wide.png" width="700px">](../../image/modulo-1-desafio-wide.png)
 
 Também foi implementado responsividade para dispositivos com larguras estreitas, apresentando o menu de opções acima da tabela de forma expansível/retrátil.
 
-[<img alt="Interface mobile do desafio completo" src="../../image/modulo-1-desafio-narrow.png" width="350px">](../../image/modulo-1-desafio-narrow.png)
+[<img alt="Interface mobile do desafio completo" src="../../image/modulo-1/desafio-narrow.png" width="350px">](../../image/modulo-1-desafio-narrow.png)
 
 ### 🗃️ Executando o Back-End
 
@@ -66,4 +66,4 @@ O back-end local será provido na porta 3000 (https://localhost:3000).
 >
 > Exemplo de interface:
 >
-> <img alt="Exemplo de interface" src="../../image/modulo-1-exemplo-desafio.png" width="1000px">
+> <img alt="Exemplo de interface" src="../../image/modulo-1/exemplo-desafio.png" width="1000px">
