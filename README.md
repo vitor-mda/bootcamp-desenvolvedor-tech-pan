@@ -13,7 +13,15 @@ Confira abaixo o meu progresso. Links redirecionarão até o respectivo conteúd
 1. - [x] **🖥️ [Fundamentos de Front-End](modulo-1/)**
      - - [x] [Trabalho Prático](modulo-1/trabalho-pratico/)
      - - [x] [Desafio](modulo-1/desafio/)
+   
 2. - [ ] **🅰️ Angular**
+     - - [ ] Trabalho Prático
+     - - [ ] Desafio
+
 3. - [ ] **☕ Fundamentos de Java**
+     - - [ ] Trabalho Prático
+     - - [ ] Desafio
 4. - [ ] **🍃 Java para WEB**
+     - - [ ] Trabalho Prático
+     - - [ ] Desafio
 5. - [ ] **🧠 Desafio Final**
