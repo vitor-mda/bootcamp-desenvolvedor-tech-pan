@@ -2,6 +2,10 @@
 
 Módulo de estudo do [**Bootcamp Desenvolvedor Tech PAN**](../../../).
 
+## ✍️ Atividades
+
+- [**Trabalho Prático**](trabalho-pratico/)
+
 ## 👨‍🏫 Plano de Ensino
 
 1. Introdução e preparação do ambiente
@@ -23,4 +27,3 @@ Módulo de estudo do [**Bootcamp Desenvolvedor Tech PAN**](../../../).
 17. Bibliotecas de componentes: Angular Material
 18. Desafio guiado 4: CRUD completo
 19. Deploy da aplicação
-
