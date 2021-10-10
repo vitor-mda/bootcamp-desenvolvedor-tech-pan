@@ -1,0 +1,26 @@
+:host {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    letter-spacing: .75px;
+}
+
+div {
+    overflow: auto;
+}
+
+div::-webkit-scrollbar {
+    width: 20px;
+}
+
+div::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+}
+
+selecao:not(:last-child) {
+    margin-bottom: 10px;
+}

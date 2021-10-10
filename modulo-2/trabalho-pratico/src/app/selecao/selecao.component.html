@@ -1,0 +1,13 @@
+<h2>{{titulo}}</h2>
+<p *ngIf="isCheckbox()">{{numeroDeEscolhasFeitas}} de {{limiteDeEscolhas}} escolhas.</p>
+
+<div>
+
+    <label *ngFor="let opcao of opcoes; let i = index">
+        <input
+        [type]="inputType()"
+        [name]="titulo"
+        (change)="handleChange($event, i)"
+        [disabled]="isDisabled(i)"> {{opcao}}
+    </label>
+</div>

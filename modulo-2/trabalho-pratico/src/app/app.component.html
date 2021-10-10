@@ -1,0 +1,27 @@
+<H1>
+    {{title}}
+</H1>
+<div>
+    <selecao titulo="Pão"
+            [opcoes]="['Australiano', 'Brioche', 'Sem glúten']"
+            [limiteDeEscolhas]="1"></selecao>
+
+    <selecao titulo="Burger"
+            [opcoes]="['Bovino', 'Vegano']"
+            [limiteDeEscolhas]="1"></selecao>
+
+    <selecao titulo="Acompanhamentos"
+            [opcoes]="['Fritas tradicional', 'Fritas rústicas', 'Anéis de cebola']"
+            [limiteDeEscolhas]="2"></selecao>
+
+    <selecao titulo="Molhos extras"
+            [opcoes]="['Molho da casa 40g',
+            'Molho da casa 150g',
+            'Barbecue de chocolate 40g',
+            'Barbecue de chocolate 150g',
+            'Ketchup de goiaba 40g',
+            'Ketchup de goiaba 150g',
+            'Maionese de salsa 40g',
+            'Maionese de salsa 150g']"
+            [limiteDeEscolhas]="8"></selecao>
+</div>

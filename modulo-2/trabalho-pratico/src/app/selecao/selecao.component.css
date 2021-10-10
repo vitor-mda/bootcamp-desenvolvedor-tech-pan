@@ -1,0 +1,30 @@
+h2 {
+    font-weight: 400;
+}
+
+div {
+    padding: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+label:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+input {
+    height: 23px;
+    width: 23px;
+    margin-right: 10px;
+}
+
+input:disabled {
+    filter: blur(1px);
+}

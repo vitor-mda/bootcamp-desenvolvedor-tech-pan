@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #1f1f1f;
+    background-color: #1d1619;
+    height: 100vh;
+    width: 100vw;
+}
+
+root {
+    background-color: #e6e6e6;
+    height: 100vh;
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #ca4a74;
+}
+
+div::-webkit-scrollbar-track {
+    background-color: #ca4a74;
+}
+
+div::-webkit-scrollbar-thumb {
+    background-color: #d3bac2;
+}
+
+div::-webkit-scrollbar-thumb:active {
+    background-color: #e28aa6;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h2, p {
+    color: #dddddd;
+    background-color: #ca4a74;
+    padding: 7.5px;
+}
+
+input:checked {
+    filter: hue-rotate(110deg) saturate(0.8);
+}
