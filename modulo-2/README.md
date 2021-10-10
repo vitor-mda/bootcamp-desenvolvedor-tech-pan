@@ -1,4 +1,4 @@
-# 🅰️ **Fundamentos de Front End**
+# 🅰️ **A**ngular
 
 Módulo de estudo do [**Bootcamp Desenvolvedor Tech PAN**](../../../).
 
