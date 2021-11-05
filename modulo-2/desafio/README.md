@@ -2,7 +2,7 @@
 
 1. [Sobre](#-sobre)
    1. [Angular Material](#-angular-material)
-   2. [Roteamento](#-roteamento)
+   2. [Roteamento](#%EF%B8%8F-roteamento)
    3. [Componentes](#-componentes)
    4. [Interfaces](#-interfaces)
    5. [Serviço](#-serviço)
@@ -193,8 +193,7 @@ Ele provê métodos para adicionar ou remover um produto do pedido, obter a quan
 
 ### 📑 Guias de navegação dinâmica
 
-<video muted width="600px" src="../../image/modulo-2/amostra-de-navegacao.mp4">
-
+https://github.com/vitor-mda/bootcamp-desenvolvedor-tech-pan/blob/master/image/modulo-2/amostra-de-navegacao.mp4
 
 Para a criação de um conjunto de guias de navegação dinâmica — isso é, guias de navegação por categoria/seção que se atualizam automaticamente a partir da posição de certos elementos no *viewport* — foi utilizado o componente [Tabs](https://material.angular.io/components/tabs/overview), do Angular Material, em conjunto com a [API Intersection Observer](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API). A instância de `IntersectionObserver` foi utilizada dentro do componente `cardapio`, e os elementos alvo da observação (método `observe()`) são os componentes do tipo `categoria`.
 
