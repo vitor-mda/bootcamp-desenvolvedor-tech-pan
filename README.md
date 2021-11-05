@@ -14,9 +14,9 @@ Confira abaixo o meu progresso. Links redirecionarão até o respectivo conteúd
      - - [x] [Trabalho Prático](modulo-1/trabalho-pratico/)
      - - [x] [Desafio](modulo-1/desafio/)
    
-2. - [ ] **🅰️ [Angular](modulo-2/)**
+2. - [x] **🅰️ [Angular](modulo-2/)**
      - - [x] [Trabalho Prático](modulo-2/trabalho-pratico/)
-     - - [ ] Desafio
+     - - [x] [Desafio](modulo-2/desafio/)
 
 3. - [ ] **☕ Fundamentos de Java**
      - - [ ] Trabalho Prático
