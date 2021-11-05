@@ -1,0 +1,26 @@
+:host {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 15px;
+}
+
+:host:hover {
+    background-color: #222222;
+}
+
+:host > p {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+contador {
+    width: 25%;
+    max-width: 120px;
+}
+
+p:last-child {
+    justify-content: right;
+}

@@ -1,0 +1,35 @@
+<div>
+    <item *ngFor="let pedido of pedidoService.pedidos"
+    [produto]="pedido.produto"></item>
+</div>
+
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <span>
+            Total
+        </span>
+
+        <span>
+            {{pedidoService.precoTotal | currency:'BRL'}}
+        </span>
+    </mat-toolbar-row>
+
+    <mat-toolbar-row>
+        <a mat-flat-button routerLink="/cardapio">
+            CONTINUAR COMPRANDO
+        </a>
+
+        <button mat-icon-button matTooltip="limpar pedido"
+        [disabled]="pedidoService.quantidadeProdutos == 0"
+        (click)="limpar()">
+            <mat-icon>
+                delete
+            </mat-icon>
+        </button>
+
+        <button mat-raised-button color="accent"
+        [disabled]="pedidoService.quantidadeProdutos == 0">
+            CONCLUIR
+        </button>        
+    </mat-toolbar-row>
+</mat-toolbar>

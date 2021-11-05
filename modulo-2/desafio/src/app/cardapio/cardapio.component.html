@@ -1,0 +1,18 @@
+<sumario></sumario>
+
+<nav mat-tab-nav-bar>
+    <a mat-tab-link *ngFor="let categoria of categorias; let i = index"
+    (click)="scrollTo(i)"
+    [active]="i == indiceNavCategoriaAtual">
+        {{categoria}}
+    </a>
+</nav>
+
+<mat-spinner *ngIf="estaCarregando"></mat-spinner>
+
+<div id="divCategorias" #divCategorias>
+    <categoria *ngFor="let categoria of categorias; let i = index"
+    [attr.data-index]="i"
+    [nome]="categoria"
+    [produtos]="obterProdutosPorCategoria(categoria)"></categoria>
+</div>

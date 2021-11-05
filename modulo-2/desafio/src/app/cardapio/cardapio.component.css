@@ -1,0 +1,9 @@
+mat-spinner {
+    margin: 50px auto;
+}
+
+#divCategorias {
+    position: relative;
+    overflow: auto;
+    height: calc(100% - 160px);
+}

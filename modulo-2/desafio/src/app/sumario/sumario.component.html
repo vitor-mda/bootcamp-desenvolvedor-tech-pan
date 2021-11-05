@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <h1>Cardápio</h1>
+    </mat-toolbar-row>
+
+    <mat-toolbar-row>
+        <div>
+            <mat-icon [matBadge]="pedidoService.quantidadeProdutos" matBadgeColor="accent">shopping_cart</mat-icon>
+        </div>
+
+        <a mat-flat-button routerLink="/pedido">VER PEDIDO</a>
+
+        <span>{{pedidoService.precoTotal | currency:'BRL'}}</span>
+    </mat-toolbar-row>
+</mat-toolbar>

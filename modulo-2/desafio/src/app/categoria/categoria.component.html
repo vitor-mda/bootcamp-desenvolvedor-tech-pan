@@ -1,0 +1,8 @@
+<mat-list>
+    <mat-list-item>
+        <h2>{{nome}}</h2>
+    </mat-list-item>
+    <item *ngFor="let produto of produtos" [produto]="produto"></item>
+</mat-list>
+
+<mat-divider></mat-divider>

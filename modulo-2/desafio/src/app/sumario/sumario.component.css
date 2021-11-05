@@ -1,0 +1,16 @@
+mat-toolbar {
+    max-height: 112px;
+}
+
+mat-toolbar-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+mat-toolbar-row > *:not(h2) {
+    width: 25%;
+}
+
+mat-toolbar-row > span {
+    text-align: right;
+}

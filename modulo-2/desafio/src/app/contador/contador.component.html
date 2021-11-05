@@ -1,0 +1,13 @@
+<button mat-mini-fab (click)="adicionarProduto(produto)">
+    <mat-icon>
+        add
+    </mat-icon>
+</button>
+<span>
+    {{contagem}}
+</span>
+<button mat-mini-fab (click)="removerProduto(produto)" [disabled]="contagem == 0">
+    <mat-icon>
+        remove
+    </mat-icon>
+</button>
