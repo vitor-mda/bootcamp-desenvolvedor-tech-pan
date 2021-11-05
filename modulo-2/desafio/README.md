@@ -193,7 +193,7 @@ Ele provê métodos para adicionar ou remover um produto do pedido, obter a quan
 
 ### 📑 Guias de navegação dinâmica
 
-https://github.com/vitor-mda/bootcamp-desenvolvedor-tech-pan/blob/master/image/modulo-2/amostra-de-navegacao.mp4
+<img src="../../image/modulo-2/amostra-de-navegacao-desafio.gif" alt="Amostra de navegação" height="520px">
 
 Para a criação de um conjunto de guias de navegação dinâmica — isso é, guias de navegação por categoria/seção que se atualizam automaticamente a partir da posição de certos elementos no *viewport* — foi utilizado o componente [Tabs](https://material.angular.io/components/tabs/overview), do Angular Material, em conjunto com a [API Intersection Observer](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API). A instância de `IntersectionObserver` foi utilizada dentro do componente `cardapio`, e os elementos alvo da observação (método `observe()`) são os componentes do tipo `categoria`.
 
