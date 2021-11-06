@@ -2,6 +2,10 @@
 
 Módulo de estudo do [**Bootcamp Desenvolvedor Tech PAN**](../../../).
 
+## ✍️ Atividades
+
+- [Trabalho Prático](trabalho-pratico/)
+
 ## 👨‍🏫 Plano de Ensino
 
 1. Linguagem tipada e não-tipada
