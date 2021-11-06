@@ -5,6 +5,7 @@ Módulo de estudo do [**Bootcamp Desenvolvedor Tech PAN**](../../../).
 ## ✍️ Atividades
 
 - [Trabalho Prático](trabalho-pratico/)
+- [Desafio](desafio/)
 
 ## 👨‍🏫 Plano de Ensino
 
