@@ -2,7 +2,7 @@
 
 Trabalho Prático do **[Módulo 3: Fundamentos de Java](../)**.
 
-Consiste na escrita e análise de três pequenos programas ([Classe01](src/Classe01.java) (Figura 06), [Classe02](src/Classe02.java) (Figura 07) e [Classe 03](src/Classe03.java) (Figura 08)) providenciados pelo professor.
+Consiste na escrita e análise de três pequenos programas ([Classe01](src/Classe01.java) (Figura 06), [Classe02](src/Classe02.java) (Figura 07) e [Classe 03](src/Classe03.java) (Figura 08)) providenciados pelo professor a fim de responder as questões do questionário.
 
 ## 👨‍🏫 Enunciado
 
