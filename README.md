@@ -23,7 +23,7 @@ Confira abaixo o meu progresso. Links redirecionarão até o respectivo conteúd
 3. - [x] **☕ [Fundamentos de Java](modulo-3/)**
      - - [x] [Trabalho Prático](modulo-3/trabalho-pratico)
      - - [x] [Desafio](modulo-3/desafio)
-4. - [ ] **🍃 Java para WEB**
-     - - [ ] Trabalho Prático
+4. - [ ] **🍃 [Java para WEB](modulo-4/)**
+     - - [x] [Trabalho Prático](modulo-4/trabalho-pratico)
      - - [ ] Desafio
 5. - [ ] **🧠 Desafio Final**
