@@ -15,22 +15,23 @@ Por praticidade, foi utilizado o banco de dados *in-memory* H2 ao invés do prop
   Listagem de todos os registros de venda.
 
   > Exemplo de resposta:
+  >
   > `Status: 200 OK`
   >
   > ```json
   > [
-  >     {
-  >         "id": 1,
-  >         "data": "1970-01-01",
-  >         "valor": 1.99,
-  >         "vendedorId": 1
-  >     },
-  >     {
-  >         "id": 2,
-  >         "data": "1970-01-02",
-  >         "valor": 2.99,
-  >         "vendedorId": 2
-  >     }
+  >  {
+  >      "id": 1,
+  >      "data": "1970-01-01",
+  >      "valor": 1.99,
+  >      "vendedorId": 1
+  >  },
+  >  {
+  >      "id": 2,
+  >      "data": "1970-01-02",
+  >      "valor": 2.99,
+  >      "vendedorId": 2
+  >  }
   > ]
   > ```
 
@@ -44,10 +45,10 @@ Por praticidade, foi utilizado o banco de dados *in-memory* H2 ao invés do prop
   >
   > ```json
   > {
-  >     "id": 1,
-  >     "data": "1970-01-01",
-  >     "valor": 1.99,
-  >     "vendedorId": 1
+  >  "id": 1,
+  >  "data": "1970-01-01",
+  >  "valor": 1.99,
+  >  "vendedorId": 1
   > }
   > ```
 
