@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: ${APP_PROFILE:dev}
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+  datasource:
+    sql-script-encoding: UTF-8

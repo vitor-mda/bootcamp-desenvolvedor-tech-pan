@@ -26,4 +26,4 @@ Confira abaixo o meu progresso. Links redirecionarão até o respectivo conteúd
 4. - [x] **🍃 [Java para WEB](modulo-4/)**
      - - [x] [Trabalho Prático](modulo-4/trabalho-pratico)
      - - [x] [Desafio](modulo-4/desafio)
-5. - [ ] **🧠 Desafio Final**
+5. - [ ] **🧠 [Desafio Final](desafio-final/)**

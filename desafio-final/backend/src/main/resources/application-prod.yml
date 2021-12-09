@@ -1,0 +1,4 @@
+spring:
+  datasource:
+    platform: postgresql
+    url: ${DATABASE_URL}
